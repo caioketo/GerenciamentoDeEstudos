@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/checklist"
+                    android:id="@+id/tv2" />
+                <com.jess.ui.TwoWayGridView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:background="#E8E8E8"
+                    android:id="@+id/gridviewcheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:cacheColorHint="#E8E8E8"
+                    app:columnWidth="30dp"
+                    app:rowHeight="80dp"
+                    app:numColumns="auto_fit"
+                    app:numRows="1"
+                    app:verticalSpacing="16dp"
+                    app:horizontalSpacing="16dp"
+                    app:stretchMode="spacingWidthUniform"
+                    app:scrollDirectionPortrait="horizontal"
+                    app:scrollDirectionLandscape="horizontal"
+                    app:gravity="center"/>
+            </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/imagens"
+                android:id="@+id/textView" />
+            <com.jess.ui.TwoWayGridView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:background="#E8E8E8"
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cacheColorHint="#E8E8E8"
+                app:columnWidth="30dp"
+                app:rowHeight="80dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:verticalSpacing="16dp"
+                app:horizontalSpacing="16dp"
+                app:stretchMode="spacingWidthUniform"
+                app:scrollDirectionPortrait="horizontal"
+                app:scrollDirectionLandscape="horizontal"
+                app:gravity="center"/>
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

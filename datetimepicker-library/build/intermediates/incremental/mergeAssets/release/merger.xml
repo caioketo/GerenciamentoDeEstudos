@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\Caio\AndroidStudioProjects\GerenciadordeEstudos\datetimepicker-library\assets" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Users\Caio\AndroidStudioProjects\GerenciadordeEstudos\datetimepicker-library\src\release\assets" />
+    </dataSet>
+
+</merger>

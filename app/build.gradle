@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.2"
+
+    defaultConfig {
+        applicationId "com.caioketo.gerenciadordeestudos"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.google.code.gson:gson:1.7.2'
+    compile 'com.android.support:support-v4:21.0.0'
+    compile "com.android.support:appcompat-v7:21.0.+"
+    compile project(':weekview')
+    compile project(':extendedCalendarView')
+    compile project(':CardsUILib')
+    compile project(':MPChartLib')
+    compile 'com.tundem.actionitembadge:library:1.2.0@aar'
+    compile 'com.melnykov:floatingactionbutton:1.0.4'
+    compile project(':libPolyPicker')
+    compile project(':datetimepicker-library')
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    compile project(':swipeMenuListView')
+    compile project(':twowaygridview')
+    compile 'com.pkmmte.view:circularimageview:1.1'
+    compile 'com.parse.bolts:bolts-android:1.1.2'
+    compile fileTree(dir: 'libs', include: 'Parse-*.jar')
+}

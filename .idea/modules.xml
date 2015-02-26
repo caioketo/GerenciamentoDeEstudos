@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CardsUILib/CardsUILib.iml" filepath="$PROJECT_DIR$/CardsUILib/CardsUILib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GerenciadordeEstudos.iml" filepath="$PROJECT_DIR$/GerenciadordeEstudos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" filepath="$PROJECT_DIR$/datetimepicker-library/datetimepicker-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extendedCalendarView/extendedCalendarView.iml" filepath="$PROJECT_DIR$/extendedCalendarView/extendedCalendarView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libPolyPicker/libPolyPicker.iml" filepath="$PROJECT_DIR$/libPolyPicker/libPolyPicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swipeMenuListView/swipeMenuListView.iml" filepath="$PROJECT_DIR$/swipeMenuListView/swipeMenuListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/twowaygridview/twowaygridview.iml" filepath="$PROJECT_DIR$/twowaygridview/twowaygridview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weekview/weekview.iml" filepath="$PROJECT_DIR$/weekview/weekview.iml" />
+    </modules>
+  </component>
+</project>
+

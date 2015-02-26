@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="C:\Users\Caio\AndroidStudioProjects\GerenciadordeEstudos\CardsUILib\build\intermediates\bundles\debug\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\Caio\AndroidStudioProjects\GerenciadordeEstudos\CardsUILib\src\androidTest\assets" />
+    </dataSet>
+
+</merger>
